@@ -1,0 +1,26 @@
+using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace ByronCalderon3A_Ejercicio8
+{
+    public class Multiplos
+    {
+        private int Valor_multiplos { get; set; }
+        public Multiplos()
+        {
+            this.Valor_multiplos = 1;
+            
+        }
+        public void Calcular_multiplo()
+        {
+            Valor_multiplos = Valor_multiplos - 1;
+            do
+            {
+                Valor_multiplos = Valor_multiplos + 3;
+                Console.WriteLine(m);
+            } while (Valor_multiplos != 3000);
+        }
+        
+    }
+}
